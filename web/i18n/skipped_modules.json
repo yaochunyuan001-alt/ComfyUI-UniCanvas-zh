@@ -1,0 +1,130 @@
+[
+  {
+    "text": "drag",
+    "why": "CSS/HTML 技术记号（drag 属性）"
+  },
+  {
+    "text": "Home",
+    "why": "键盘按键名（Home 键）"
+  },
+  {
+    "text": "PATCH",
+    "why": "HTTP 方法记号"
+  },
+  {
+    "text": "SAM 3",
+    "why": "模型专属名词（SAM 3）"
+  },
+  {
+    "text": "Shift",
+    "why": "键盘按键名（Shift 键）"
+  },
+  {
+    "text": "DELETE",
+    "why": "HTTP 方法记号"
+  },
+  {
+    "text": "BiRefNet",
+    "why": "模型专属名词（BiRefNet）"
+  },
+  {
+    "text": "LoadImage",
+    "why": "节点/类名（LoadImage）"
+  },
+  {
+    "text": "PSD Layer",
+    "why": "专有名词组合（PSD Layer）"
+  },
+  {
+    "text": "Unicanvas",
+    "why": "产品名（Unicanvas）"
+  },
+  {
+    "text": "ArrowLeft",
+    "why": "键盘按键名（ArrowLeft）"
+  },
+  {
+    "text": "aria-busy",
+    "why": "无障碍属性（aria-busy）"
+  },
+  {
+    "text": "Comfy.Undo",
+    "why": "ComfyUI 内部命令标识（Comfy.Undo）"
+  },
+  {
+    "text": "Comfy.Redo",
+    "why": "ComfyUI 内部命令标识（Comfy.Redo）"
+  },
+  {
+    "text": "ArrowRight",
+    "why": "键盘按键名（ArrowRight）"
+  },
+  {
+    "text": "GGUF model",
+    "why": "专有名词组合（GGUF model）"
+  },
+  {
+    "text": "PrimitiveNode",
+    "why": "节点类名（PrimitiveNode）"
+  },
+  {
+    "text": "Qwen Edit 2.1",
+    "why": "模型专属名词（Qwen Edit 2.1）"
+  },
+  {
+    "text": "aria-controls",
+    "why": "无障碍属性（aria-controls）"
+  },
+  {
+    "text": "aria-selected",
+    "why": "无障碍属性（aria-selected）"
+  },
+  {
+    "text": "aria-labelledby",
+    "why": "无障碍属性（aria-labelledby）"
+  },
+  {
+    "text": "Diffusion model",
+    "why": "专有名词组合（Diffusion model）"
+  },
+  {
+    "text": "JetBrains Mono', 'Fira Code",
+    "why": "字体名列表片段（JetBrains Mono / Fira Code）"
+  },
+  {
+    "text": "<span></span><small></small>",
+    "why": "纯 HTML 片段"
+  },
+  {
+    "text": "VNCCS.UniCanvas.StandaloneSidebar",
+    "why": "内部标识符（VNCCS.UniCanvas.StandaloneSidebar）"
+  },
+  {
+    "text": "VNCCS.UniCanvas.PromptEnhance.Prompts",
+    "why": "内部标识符（VNCCS.UniCanvas.PromptEnhance.Prompts）"
+  },
+  {
+    "text": "${catalog.label} — missing model files",
+    "why": "模板字符串（含 ${...} 占位符）"
+  },
+  {
+    "text": "${svgMarkup}<h4>${heading}</h4><p>${html}</p>",
+    "why": "模板字符串 + HTML 片段"
+  },
+  {
+    "text": "${item.icon}<span>${escapeText(item.label)}</span>",
+    "why": "模板字符串 + HTML 片段"
+  },
+  {
+    "text": "Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors",
+    "why": "模型文件名（*.safetensors）"
+  },
+  {
+    "text": "QI2/Viggle/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors",
+    "why": "模型文件名（*.safetensors）"
+  },
+  {
+    "text": "${configured} of ${families.length || configured} model families have a system prompt",
+    "why": "模板字符串（含 ${...} 占位符）"
+  }
+]

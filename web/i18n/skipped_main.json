@@ -1,0 +1,174 @@
+[
+  {
+    "text": "PSD",
+    "why": "格式名/专有名词，保持英文"
+  },
+  {
+    "text": "Sora",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "SDXL",
+    "why": "模型架构专有名词，保持英文"
+  },
+  {
+    "text": "CLIP",
+    "why": "模型组件专有名词，保持英文"
+  },
+  {
+    "text": "GGUF",
+    "why": "模型格式专有名词，保持英文"
+  },
+  {
+    "text": "role",
+    "why": "无障碍/技术记号，不翻译"
+  },
+  {
+    "text": "Flux",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "POST",
+    "why": "HTTP 方法记号，不翻译"
+  },
+  {
+    "text": "Anima",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "Enter",
+    "why": "按键名，按规范保持原文"
+  },
+  {
+    "text": "VNCCS",
+    "why": "产品专有名词，保持英文"
+  },
+  {
+    "text": "Escape",
+    "why": "按键名，按规范保持原文"
+  },
+  {
+    "text": "Z-image",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "${label}",
+    "why": "纯模板占位符，由调用方处理"
+  },
+  {
+    "text": "${title}",
+    "why": "纯模板占位符，由调用方处理"
+  },
+  {
+    "text": "aria-live",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "UniCanvas",
+    "why": "产品专有名词，保持英文"
+  },
+  {
+    "text": "Flux Klein",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "Krea2 Edit",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "MiniMax H3",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "Checkpoint",
+    "why": "专有名词，仅由术语本身构成，保持英文"
+  },
+  {
+    "text": "GGUF Model",
+    "why": "专有名词，仅由术语本身构成，保持英文"
+  },
+  {
+    "text": "aria-modal",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "aria-label",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "aria-pressed",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "Content-Type",
+    "why": "HTTP 头记号，不翻译"
+  },
+  {
+    "text": "aria-haspopup",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "aria-expanded",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "aria-disabled",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "aria-valuenow",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "Qwen-Image-2.1",
+    "why": "模型专有名词，保持英文"
+  },
+  {
+    "text": "aria-valuetext",
+    "why": "aria 无障碍属性记号，不翻译"
+  },
+  {
+    "text": "Diffusion Model",
+    "why": "专有名词，仅由术语本身构成，保持英文"
+  },
+  {
+    "text": "VNCCS.UniCanvas",
+    "why": "代码标识符/命名空间，不翻译"
+  },
+  {
+    "text": "${title} Settings",
+    "why": "含模板占位符，由调用方正则处理"
+  },
+  {
+    "text": "${Math.round(value)}°",
+    "why": "纯模板占位符，含数字格式表达式"
+  },
+  {
+    "text": "<b>+</b><span>Add</span>",
+    "why": "HTML 片段，由调用方正则处理"
+  },
+  {
+    "text": "${Math.round(value * 100)}%",
+    "why": "纯模板占位符，含数字格式表达式"
+  },
+  {
+    "text": "<span>${this._escape(label)}</span>",
+    "why": "HTML 片段且含模板占位符"
+  },
+  {
+    "text": "${Math.round(layer.opacity * 100)}%",
+    "why": "纯模板占位符，含数字格式表达式"
+  },
+  {
+    "text": "${this.activeStagingIndex + 1}/${this.stagingItems.length}",
+    "why": "纯模板占位符，含表达式"
+  },
+  {
+    "text": "Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2602-8steps.safetensors",
+    "why": "模型文件名，保持原样"
+  },
+  {
+    "text": "Turbo LoRA",
+    "why": "LoRA 适配器专有名词，保持英文"
+  }
+]

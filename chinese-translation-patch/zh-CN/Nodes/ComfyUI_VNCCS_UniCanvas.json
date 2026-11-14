@@ -1,0 +1,56 @@
+{
+    "VNCCS_UniCanvas": {
+        "title": "VNCCS UniCanvas 画布",
+        "inputs": {},
+        "widgets": {
+            "unicanvas_state": "画布状态",
+            "config": "配置"
+        },
+        "outputs": {
+            "image": "图像"
+        },
+        "description": "VNCCS UniCanvas 画布编辑器，在节点内完成绘制、图层、蒙版与生成。"
+    },
+    "VNCCS_Config": {
+        "title": "VNCCS 配置",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "VNCCS 全局配置（模型路径、生成参数等）。"
+    },
+    "VNCCS_PromptDesigner": {
+        "title": "VNCCS 提示词设计器",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "可视化提示词编排器。"
+    },
+    "VNCCS_PoseLibraryCreator": {
+        "title": "VNCCS 姿势库创建器",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "把姿势保存进姿势库。"
+    },
+    "VNCCS_3DFactory": {
+        "title": "VNCCS 3D 工厂",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "3D 模型/网格工厂。"
+    },
+    "VNCCS_FactoryRender": {
+        "title": "VNCCS 3D 渲染",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "渲染 3D 工厂的模型。"
+    },
+    "VNCCS_FactoryMask": {
+        "title": "VNCCS 3D 蒙版",
+        "inputs": {},
+        "widgets": {},
+        "outputs": {},
+        "description": "输出 3D 工厂模型的蒙版。"
+    }
+}

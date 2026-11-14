@@ -1,0 +1,8 @@
+{
+  "VNCCS/canvas": "VNCCS/画布",
+  "VNCCS/prompt": "VNCCS/提示词",
+  "VNCCS/pose": "VNCCS/姿势",
+  "VNCCS/3D": "VNCCS/3D",
+  "VNCCS/detailing": "VNCCS/细节增强",
+  "VNCCS/config": "VNCCS/设置"
+}
