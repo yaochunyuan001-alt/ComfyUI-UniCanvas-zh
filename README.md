@@ -1,6 +1,8 @@
 # UniCanvas 中文汉化（运行时翻译层）
 
 给 [vnccs-utils](https://github.com/AHEKOT/ComfyUI_VNCCS_Utils) 的 UniCanvas / 3D Factory / Pose Studio 界面做中文汉化。
+
+> 仓库：<https://github.com/yaochunyuan001-alt/ComfyUI-UniCanvas-zh>
 **不改上游任何文件**，升级 vnccs-utils 后依然生效。
 
 - 词表总计 **534 条**：节点面板、独立工作区（Unicanvas 全屏）、提示词指南弹窗、右键菜单、画布内文字
