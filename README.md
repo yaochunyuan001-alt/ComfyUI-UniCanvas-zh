@@ -37,6 +37,23 @@
    - 钩住 `CanvasRenderingContext2D.fillText`，翻译画布上画的少量文字（尺寸/不透明度/拖拽等，见 `canvas.json`）。
 2. 节点标题、分类名由 `chinese-translation` 的数据补全（见上「安装」第 2 步）。
 
+## 生成前校验与性能提示
+
+UniCanvas 的生成走它自己的接口 `/vnccs/unicanvas/draw`，**不经过 ComfyUI 的 `/prompt` 队列**，所以 Comfy 原生的 prompt 校验、队列统计和执行耗时都不参与。本插件在发出生成请求前补上这部分：
+
+- **模型/VAE 配套检查**：搭配表来自 `GET /vnccs/unicanvas/presets`。选了扩散模型但 VAE 不配套（例如 Z-Image 配 `qwen_image_vae`）时直接拦下，提示应为哪个 VAE、当前是哪个、怎么改；文本编码器不配套只提示、不拦截。
+- **耗时提示**：生成成功后底部提示「生成完成：X 秒 · N 步 · 平均 S 步/秒」，同时写入 `window.vnccsZhLastPerf`。
+- **异常中文化**：后端返回的英文错误（缺 `ViggleTurboSigmas` 这类外部节点、VAE 与模型不配套导致的解码崩溃、显存不足）会翻成中文提示。
+- **状态行中文化**：`GENERATE complete (N staged) - attention … · EasyCache … · VAE …` 等状态行一并翻译。
+
+想临时跳过配套校验：控制台执行
+
+```js
+localStorage.setItem("vnccs_zh_skip_guard", "1"); location.reload();
+```
+
+恢复校验：`localStorage.removeItem("vnccs_zh_skip_guard")` 后刷新。
+
 ## 词表文件（web/i18n/）
 
 | 文件 | 内容 |
